@@ -1,0 +1,69 @@
+.fc-view-harness{
+  height : 556px !important;
+}
+.fc .fc-scroller-liquid-absolute{
+  overflow : hidden !important;
+}
+.custom_seance,.custom_seance_update{
+  margin-right: -500px;
+  transition: margin-right .3s;
+  width: 500px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  padding: 50px 20px;
+  z-index: 999999;
+  overflow-y: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,25%);
+  background: #fff;
+}
+.show_custom_seance{
+  margin-right: 0px;
+}
+.hide_form,.hide_form_update{
+  font-size: 25px;
+  color: #000;
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 15px;
+  z-index: 999999;
+}
+.myform{
+  min-height: 100vh;
+  max-height: 100vh;
+}
+input,select{
+  outline : none;
+}
+.card-header{
+  box-shadow : none !important;
+}
+
+/* Datatable */
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+  border: none !important;
+  background: #696cff !important;
+}
+
+/* Start edit offcanvas-end */
+.offcanvas-end{
+  width : 500px !important;
+}
+
+/* Start edit schedules page*/
+.second-header{
+  border: 4px solid #000;
+  padding: 10px 0;
+  color:#000;
+}
+/* table {
+  border: 2px solid black;
+}
+
+th,tr,td{
+  border: 2px solid black;
+  padding: 10px;
+  font-weight: bold;
+} */
